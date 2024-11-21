@@ -1,0 +1,84 @@
+/* ベース設定 */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.8; /* 行間を広げる */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px; /* 文字サイズを少し大きく */
+}
+
+/* メインセクション */
+main {
+    max-width: 900px;
+    margin: 2rem auto; /* 上下に余裕を持たせる */
+    padding: 2rem; /* テキストに余白を追加 */
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* セクション内のスタイル */
+section {
+    margin-bottom: 2.5rem; /* セクション間の余白を広げる */
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #35495e;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3c8dbc;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 1.1rem; /* 段落の文字サイズを大きく */
+    text-align: justify;
+    margin-bottom: 1.5rem; /* 段落間に余白を追加 */
+}
+
+/* ナビゲーション */
+nav {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #35495e;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background: #35495e;
+    border-radius: 5px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #35495e;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
